@@ -55,3 +55,11 @@ npm start
 * **Inference Throughput:** 284.5 tokens/sec (FP8 quantized) on AMD Instinct MI300X.
 * **TTFT:** 38.2 ms Time-to-First-Token.
 * **Verification Rate:** 100% deterministic grounding on tool execution traces.
+
+## 🖥️ Dashboard
+
+```bash
+npm run serve   # http://localhost:8080
+```
+
+> ⚠️ **Status:** ROCm telemetry is currently simulated (src/rocm_engine.ts). Wire to a real vLLM-ROCm endpoint before submission.
